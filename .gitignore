@@ -1,5 +1,3 @@
-.vs/
-
 # Prerequisites
 *.d
 
@@ -8,6 +6,8 @@
 *.lo
 *.o
 *.obj
+*.iobj
+*.ipdb
 
 # Precompiled Headers
 *.gch
@@ -16,7 +16,6 @@
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
 
 # Fortran module files
 *.mod
@@ -26,11 +25,61 @@
 *.lai
 *.la
 *.a
-*.lib
 
 # Executables
-*.exe
+#*.exe
 *.out
 *.app
+*.zip
+*.suo
+*.pdb
+*.tlog
+*.ipch
+*.db
+*.opendb
+*.db-shm
+*.db-wal
+
+*.exp
+
+*.ilk
+*.lastbuildstate
+*.log
+*.idb
+
+*.opensdf
+*.sdf
+
+*.ilk
+*.log
+
+*.xml
+*.cache
+
+*.aps
+
+*.unsuccessfulbuild
+
+# Directories
+.vs/
+obj/
+ipch/
+x64/Release/*
+x64/Debug/*
+#bin/
+#lib/
+#sln
+#ignore
+Debug/
+Release/
+Project/
+res/*.css
+*.res
+
+#*.dll
+*.vcxproj.user
 
 
+
+
+*.db
