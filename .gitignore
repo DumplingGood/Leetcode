@@ -85,3 +85,4 @@ res/*.css
 *.db
 *.db
 *.db
+*.filters
